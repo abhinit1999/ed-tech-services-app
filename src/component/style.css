@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(200, 179, 201);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+
+
+}
+ul {
+  display: flex;
+  text-decoration: none;
+  margin-right: 200px;
+}
+li {
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+
+ 
+}
+
+.logo {
+  margin-left: 70px;
+  
+}
+.active
+{
+    /* font-style: italic; */
+    color: rgb(17, 19, 20) !important;
+
+
+}
+
+/* @media screen and (max-width: 768px) {
+  .logo {
+    margin-left: auto;
+  }
+
+  li {
+    margin: auto;
+    padding: 5px;
+  }
+} */
